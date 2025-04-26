@@ -6,48 +6,70 @@
   <title>Arup Mazumder</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fafafa;
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #00264d; /* Dark Blue Background */
       color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
     }
-    .container {
-      display: flex;
-      align-items: center;
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #00264d;
+      color: white;
+    }
+    .icon {
+      width: 70px;
+      height: 70px;
       background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
       border-radius: 50%;
-      margin-right: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
     }
-    .info h1 {
-      margin: 0;
-      font-size: 28px;
+    .icon img {
+      width: 40px;
+      height: 40px;
     }
-    .info p {
-      margin: 5px 0 20px 0;
-      font-size: 18px;
-      color: #666;
-    }
-    .links a {
-      display: inline-block;
-      margin-right: 15px;
+    .subtitle a {
+      color: #cce6ff;
       text-decoration: none;
-      color: #007BFF;
-      font-weight: bold;
     }
-    .links a:hover {
+    .subtitle a:hover {
       text-decoration: underline;
+    }
+    .card {
+      background: white;
+      max-width: 900px;
+      margin: -30px auto 0;
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #666;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover, nav a.active {
+      background: #f0f0f0;
+      color: #333;
+    }
+    section {
+      text-align: center;
+    }
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      margin: 20px auto;
     }
   </style>
 </head>
